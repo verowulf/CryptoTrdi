@@ -9,7 +9,7 @@ def read_hrly_csv(file):
     from CryptoDataDownload.com
     
     param file: 'filename.csv' which should be in the folder 'data/'
-    return: parsed df of sorted DatetimeIndex and OHLC and V(Volume to)
+    return: parsed df of sorted DatetimeIndex and OHLC and V(Volume To)
     '''
     file = 'data/' + file
     df = pd.read_csv(file, header=1, index_col=0,
